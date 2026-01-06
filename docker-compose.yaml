@@ -2,7 +2,7 @@ services:
 
   btop:
 
-    image: bigbeartechworld/big-bear-btop:0.0.3
+    image: bigbeartechworld/big-bear-btop:latest
     container_name: btop
     ports:
       - "7681:7681"
@@ -12,4 +12,5 @@ services:
       - /proc:/proc
       - /sys:/sys
       - /dev:/dev
-      - /etc/localtime:/etc/localtime:ro
+#      - /etc/localtime:/etc/localtime:ro
+
