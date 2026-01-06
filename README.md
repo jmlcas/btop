@@ -1,4 +1,4 @@
 # Btop
 
-Ir a "localhost:7681"
+Ir a "http://localhost:7681"
 
